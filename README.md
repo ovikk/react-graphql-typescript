@@ -1,4 +1,4 @@
-This is React Client for Kyyti test assignment.
+A project to view the user list(CRUD) using React ,Typescript and graphql.
 
 ## To run the client
 - Clone / Download the project
