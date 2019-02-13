@@ -1,17 +1,17 @@
 This is React Client for Kyyti test assignment.
 
-To run the client
-Clone / Download the project
-yarn 
-yarn start 
+## To run the client
+- Clone / Download the project
+- yarn 
+- yarn start 
 
-To run the server 
-Clone / Download the project https://github.com/kyyticom/kyyti-test-task-server
-npm install
-node server.js
-go to http://localhost:8080/graphiql to test GraphQL Querries and Mutation
+## To run the server 
+- Clone / Download the project https://github.com/kyyticom/kyyti-test-task-server
+- npm install
+- node server.js
+- go to http://localhost:8080/graphiql to test GraphQL Querries and Mutation
 
-Note if you get the error in clientside:  
+Note: if you get the error in clientside:  
 Access to fetch at 'http://localhost:8080/graphql' from origin 'http://localhost:3000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 
 solution for the above error:
@@ -23,8 +23,7 @@ include cors() in the server
     cors(),
     graphqlExpress({
         schema,
-    })
-)
+    }))
 
 
 
