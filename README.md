@@ -27,7 +27,7 @@ include cors() in the server
 
 
 
-References:
-https://facebook.github.io/create-react-app/docs/adding-typescript
-https://www.apollographql.com/docs/react/react-apollo-migration.html
-https://www.typescriptlang.org/docs/home.html
+## References:
+- https://facebook.github.io/create-react-app/docs/adding-typescript
+- https://www.apollographql.com/docs/react/react-apollo-migration.html
+- https://www.typescriptlang.org/docs/home.html
