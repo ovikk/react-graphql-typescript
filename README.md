@@ -1,4 +1,4 @@
-A project to view the user list(CRUD) using React ,Typescript and graphql.
+A project to view the user list(CRUD) using React ,Typescript and Apolloclient graphql.
 
 ## To run the client
 - Clone / Download the project
@@ -27,3 +27,7 @@ include cors() in the server
 
 
 
+References:
+https://facebook.github.io/create-react-app/docs/adding-typescript
+https://www.apollographql.com/docs/react/react-apollo-migration.html
+https://www.typescriptlang.org/docs/home.html
